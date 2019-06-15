@@ -673,6 +673,9 @@ ul.breadcrumb li:last-child{
 	.right_holder {
 		display: none;
 	}
+	.left_holder {
+	padding: 10vh 30px 10vh 30px;
+	}
 	.columns {
 		margin-left: 0;
 	}
