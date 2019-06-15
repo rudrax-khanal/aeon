@@ -1,0 +1,28 @@
+---
+
+title: Knowledge Base
+layout: kb
+permalink: /support
+
+---
+
+<section class="guides post">
+                <div class="container">
+                    <h3>General Guides</h3>
+                    <div class="categories">
+                        {% for category in site.categories %}
+                        {% capture category_name %}{{ category | first }}{% endcapture %}
+                        <div class="guide_item">
+                            {{ category_name }}
+                        </div>
+                            {% for post in site.categories[category_name] %}
+                            <article class="archive-item">
+                              <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h3>
+                            </article>
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+
+        </main>

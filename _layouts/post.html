@@ -1,0 +1,37 @@
+{% include header.html %}
+
+      <main>
+            <div class="breadcrumb_holder">
+                <div class="container">
+                    <ul class="breadcrumb">
+                        <li><a href="{{site.url}}/support">Home</a></li>
+                        <li>Support</li>
+                    </ul>
+                    <h3>{{page.title}}</h3>
+                </div>
+            </div>
+
+            <section class="text_center">
+                <div class="container">
+                    <script>
+                      (function() {
+                        var cx = '014009902374582839268:zytivucrncy';
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                      })();
+                    </script>
+                    <gcse:search></gcse:search>
+                </div>
+            </section>
+
+            <section class="post">
+                <div class="container">
+                {{content}}
+                </div>
+            </section>
+
+{% include footer.html %} 
