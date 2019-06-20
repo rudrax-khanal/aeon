@@ -1,5 +1,4 @@
-http://aeonfree.netlify.com/* https://aeonfree.com/:splat 301!
-/* /index.html 200
+http://aeonfree.netlify.com/* http://aeonfree.com/:splat 301!
 /signup		https://web.aeonfree.com/signup
 /login      https://web.aeonfree.com/login
 /support	https://kb.aeonfree.com
