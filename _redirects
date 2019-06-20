@@ -4,7 +4,6 @@ http://www.aeonfree.netlify.com/* http://aeonfree.com/:splat 301!
 https://www.aeonfreecom/* http://aeonfree.com/:splat 301!
 /signup		https://web.aeonfree.com/signup
 /login      https://web.aeonfree.com/login
-/support	https://aeonfree.com/support
 /knowledgebase	https://aeonfree.com/support
 /forum		https://forum.aeonfree.com
 /dashboard  https://web.aeonfree.com/dashboard
