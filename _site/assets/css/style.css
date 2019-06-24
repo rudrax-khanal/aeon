@@ -673,6 +673,9 @@ ul.breadcrumb li:last-child{
 	.right_holder {
 		display: none;
 	}
+	.left_holder {
+	padding: 17vh 30px 10vh 30px;
+	}
 	.columns {
 		margin-left: 0;
 	}
@@ -695,6 +698,12 @@ ul.breadcrumb li:last-child{
 	}
 	.container {
 		width: 90%;
+	}
+	.first_section .container{
+		width:95%;
+	}
+	.all_features{
+		padding:0;
 	}
 	footer .container {
 		width: 80%;

@@ -699,6 +699,12 @@ ul.breadcrumb li:last-child{
 	.container {
 		width: 90%;
 	}
+	.first_section .container{
+		width:95%;
+	}
+	.all_features{
+		padding:0;
+	}
 	footer .container {
 		width: 80%;
 	}
