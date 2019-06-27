@@ -249,6 +249,7 @@ section .btn-secondary:hover {
 	padding: 50px;
 	margin: 50px 0;
 }
+.regular_section h1,
 .regular_section h3 {
 	font-size: 24px;
 	margin: 50px 0 25px;
