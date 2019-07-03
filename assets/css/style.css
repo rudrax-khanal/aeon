@@ -502,7 +502,7 @@ ul.breadcrumb li:last-child{
     border-width:1px;
 }
 .guides .columns:nth-child(3n+1){
-	margin-left:0;
+	margin-left: 0;
 }
 .page h1,
 .post h1{
