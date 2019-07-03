@@ -1,1 +1,0 @@
-Developed by Sameer Khanal (admin@aeonfree.com)
