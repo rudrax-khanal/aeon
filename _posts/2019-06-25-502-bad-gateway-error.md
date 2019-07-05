@@ -1,6 +1,6 @@
 ---
 
-title: How to fix 502 Bad gateway error ?
+title: How to fix 502 Bad gateway error?
 layout: post
 permalink: /support/fix-502-gateway-error
 categories: [Common Problems]

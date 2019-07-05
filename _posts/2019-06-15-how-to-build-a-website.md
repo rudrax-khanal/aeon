@@ -1,6 +1,6 @@
 ---
 
-title: How to build a website ?
+title: How to build a website?
 layout: post
 permalink: /support/getting-started
 categories: [Getting Started]
