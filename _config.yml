@@ -4,3 +4,4 @@ description: Get Free Web Hosting with Unlimited Disk Space, Unlimited Bandwidth
 url: "https://aeonfree.com"
 include:
   - _redirects
+  - ads.txt
