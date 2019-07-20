@@ -593,6 +593,13 @@ ul.breadcrumb li:last-child{
 	-webkit-animation: bounce 3s infinite;
 	animation: bounce 3s infinite;
 }
+.ad_placeholder{
+	height:90px;
+	border:1px solid grey;
+	width:100%;
+	background-color:green;
+	display: block;
+}
 @-moz-keyframes bounce {
 	0%, 20%, 50%, 80%, 100% {
 		-moz-transform: translateY(0);
