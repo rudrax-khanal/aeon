@@ -654,12 +654,23 @@ ul.breadcrumb li:last-child{
 		transform: translateY(-15px);
 	}
 }
-@media only screen and (max-width: 1120px) {
+@media only screen and (max-width: 1185px) {
 	.container {
 		width: 90%;
 	}
 }
+@media only screen and (max-width: 1060px) {
+	.header_navigation .container {
+		width: 100%;
+	}
+}
 @media only screen and (max-width: 950px) {
+	.header_navigation .container {
+		width: 90%;
+	}
+	.header_navigation{
+		background-color: white;
+	}
 	.pages_container, .second_pages_container {
 		display: none;
 	}
