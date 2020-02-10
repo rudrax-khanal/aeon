@@ -747,6 +747,13 @@ ul.breadcrumb li:last-child{
 	}
 }
 @media only screen and (max-width: 450px) {
+	.first_section .container{
+		width:100%;
+		padding:0;
+	}
+	.left_holder {
+		padding: 17vh 10px 10vh 10px;
+	}
 	footer .u-pull-down {
 		margin-top: 20px;
 	}
