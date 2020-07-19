@@ -606,6 +606,16 @@ ul.breadcrumb li:last-child{
 .mb3em{
 	margin-bottom:3em;
 }
+.mt6em{
+	margin-top:6em;
+}
+.w-60{
+	width: 60%;
+}
+.m0auto{
+	margin: 0 auto;
+}
+
 @-moz-keyframes bounce {
 	0%, 20%, 50%, 80%, 100% {
 		-moz-transform: translateY(0);
