@@ -1,6 +1,6 @@
 ---
 
-title: Can i put ads on my website?
+title: Can I put ads on my website?
 layout: post
 permalink: /support/can-i-put-ads-on-my-website
 categories: [Website and PHP]
