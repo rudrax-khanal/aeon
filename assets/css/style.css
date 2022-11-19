@@ -313,7 +313,7 @@ section .btn-secondary:hover {
 	margin: 50px 0;
 }
 .footer_first .container {
-	background-image: url(../images/footer_back.png);
+	background-image: url(../images/footer_back.webp);
 	border: 2px solid #e8e8e8;
 	border-radius: 2px;
 	background-clip: content-box;
