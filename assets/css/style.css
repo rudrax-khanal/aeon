@@ -768,20 +768,26 @@ td:first-child, th:first-child{
 	}
 }
 @media only screen and (max-width: 750px) {
-	.first_section{
+	.background_1{
+		background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("/assets/images/background.webp");
 		background-repeat: no-repeat;
 		background-position: 50%;
 		background-size: cover;
 		color: #fff;
 	}
-	.background_1{
-		background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("/assets/images/background.webp");
-	}
 	.background_2{
 		background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("/assets/images/background-2.webp");
+		background-repeat: no-repeat;
+		background-position: 50%;
+		background-size: cover;
+		color: #fff;
 	}
 	.background_3{
 		background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("/assets/images/free-wordpress-hosting-cover-aeonfree.jpg");
+		background-repeat: no-repeat;
+		background-position: 50%;
+		background-size: cover;
+		color: #fff;
 	}
 	.first_section .light_text{
 		color: rgb(220, 220, 220);
