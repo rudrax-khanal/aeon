@@ -81,6 +81,9 @@ section {
 	background: #2196f3;
 	border-color: #2196f3;
 	color: #fff;
+	box-shadow: 0 2px 4px 0 rgb(136 144 195 / 20%), 0 5px 15px 0 rgb(37 44 97 / 15%);
+	transition: background .2s ease;
+	border-radius: 4px;
 }
 .header_menu .navbar_btn:hover {
 	background-color: #51ADF6;
@@ -112,6 +115,9 @@ section {
 	font-size: 14px;
 	background: #2196f3;
 	border-color: #2196f3;
+	box-shadow: 0 2px 4px 0 rgb(136 144 195 / 20%), 0 5px 15px 0 rgb(37 44 97 / 15%);
+	transition: background .2s ease;
+	border-radius: 4px;
 }
 .mobile_menu_holder .navbar_btn:hover {
 	background-color: #51ADF6;
@@ -155,7 +161,20 @@ section .cta {
 	background: #2196f3;
 	border-color: #2196f3;
 	display: inline-block;
+	box-shadow: 0 2px 4px 0 rgb(136 144 195 / 20%), 0 5px 15px 0 rgb(37 44 97 / 15%);
+	transition: background .2s ease;
+	border-radius: 4px;
 }
+.w-arr{
+	display: inline-flex !important;
+	align-items: center;
+	justify-content: center;
+}
+.w-arr .arrow{
+	margin-left: 20px;
+}
+
+
 .btn-primary:hover,
 section .cta:hover {
 	background-color: #51ADF6;
@@ -182,10 +201,15 @@ section .cta:hover {
 }
 .second_section .second_sec_img {
 	padding-top: 60px;
+	text-align: center;
 }
 
 .features_holder .row {
 	margin: 35px 0;
+}
+section .subtitle{
+	max-width: 1000px;
+	margin: 0 auto;
 }
 section .feature_box {
 	background: hsla(0, 0%, 100%, .2);
@@ -741,6 +765,12 @@ td:first-child, th:first-child{
 		background-size: cover;
 		color: #fff;
 	}
+	.background_2{
+		background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("/assets/images/background-2.webp");
+	}
+	.background_3{
+		background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("/assets/images/free-wordpress-hosting-cover-aeonfree.jpg");
+	}
 	.first_section .light_text{
 		color: rgb(220, 220, 220);
 	}
@@ -818,6 +848,10 @@ td:first-child, th:first-child{
 	section .cta {
 		font-size: 18px;
 		padding: 13px 27px;
+	}
+
+	.w-arr .arrow{
+		height: 16px;
 	}
 
 }
