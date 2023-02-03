@@ -101,10 +101,13 @@ section {
 .mobile_menu_holder ul {
 	list-style-type: none;
 }
+
 .mobile_menu_holder ul li a {
 	text-decoration: none;
 	color: #333;
 	font-weight: 500;
+	padding: 1rem 0;
+	display: block;
 }
 .mobile_menu_holder .container {
 	width: 90%;
@@ -121,6 +124,7 @@ section {
 	box-shadow: 0 2px 4px 0 rgb(136 144 195 / 20%), 0 5px 15px 0 rgb(37 44 97 / 15%);
 	transition: background .2s ease;
 	border-radius: 4px;
+	text-align: center;
 }
 .mobile_menu_holder .navbar_btn:hover {
 	background-color: #51ADF6;
