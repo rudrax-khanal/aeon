@@ -779,17 +779,17 @@ td:first-child, th:first-child{
 }
 @media only screen and (max-width: 750px) {
 
-	.header_navigation{
+	.header_ch.header_navigation{
 		background-color: rgba(0,0,0,0.3);
 	   transition: background ease 0.3s;
 	}
-	.header_navigation .menu_icon i{
+	.header_ch.header_navigation .menu_icon i{
 		color: #fff;
 	}
-	.navbar_active{
+	.header_ch.navbar_active{
 		background-color: #fff;
 	}
-	.navbar_active .menu_icon i{
+	.header_ch.navbar_active .menu_icon i{
 		color: #000;
 	}
 

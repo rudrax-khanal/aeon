@@ -37,15 +37,17 @@
 		}
 	});
 
-	console.log($(window).width())
-	if ($(window).width() <= 750) {
-		$(document).on('scroll', function(){
-			if ( $(window).scrollTop() > 30) {
-				$('.header_navigation').addClass('navbar_active');
-			} else {
-				$('.header_navigation').removeClass('navbar_active');
-			}
-		});
+	if($('.header_ch')){
+		if ($(window).width() <= 750) {
+			
+			$(document).on('scroll', function(){
+				if ( $(window).scrollTop() > 30) {
+					$('.header_navigation').addClass('navbar_active');
+				} else {
+					$('.header_navigation').removeClass('navbar_active');
+				}
+			});
+		}
 	}
 
 })(jQuery);
