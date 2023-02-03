@@ -812,6 +812,14 @@ td:first-child, th:first-child{
 		content: none;
 	}
 
+	.mobile_menu_holder{
+		margin-top: 10px;
+	}
+
+	.mobile_menu_holder nav{
+		width: 100%;
+	}
+
 	.header_logo{
 		margin:0;
 		padding:0;
