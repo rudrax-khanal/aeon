@@ -49,7 +49,6 @@
 			});
 		}
 	} else {
-		console.log('noo')
 		if($('.header_ch')){
 			$('.header_ch').removeClass('header_ch');
 		}
