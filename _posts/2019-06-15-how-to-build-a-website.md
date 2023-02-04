@@ -4,6 +4,7 @@ title: How to build a website?
 layout: post
 permalink: /support/getting-started
 categories: [Getting Started]
+description: First of all you need to create a new AeonFree account by going on the signup page
 
 ---
 # How to build a website?

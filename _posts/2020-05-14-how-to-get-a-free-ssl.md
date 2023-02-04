@@ -4,6 +4,7 @@ title: How to get a free SSL Certificate?
 layout: post
 permalink: /support/how-to-get-a-free-ssl-certificate
 categories: [Website and PHP]
+description: With aeonfree web hosting you can get a free SSL Certificate when you signup for a free web hosting. You can follow these bsic steps to get a free SSL
 
 ---
 

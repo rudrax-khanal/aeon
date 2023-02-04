@@ -4,6 +4,7 @@ title: How to fix 502 Bad gateway error?
 layout: post
 permalink: /support/fix-502-gateway-error
 categories: [Common Problems]
+description: A 502 Bad Gateway Error occurs when you try to visit a web page, but one web server gets an invalid response from another web server.
 
 ---
 # 502 Bad Gateway Error.

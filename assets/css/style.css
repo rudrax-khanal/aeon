@@ -785,7 +785,7 @@ td:first-child, th:first-child{
 
 	.header_ch.header_navigation{
 		background-color: rgba(0,0,0,0.3);
-	   transition: background ease 0.3s;
+	    transition: background ease 0.3s;
 	}
 	.header_ch.header_navigation .menu_icon i{
 		color: #fff;

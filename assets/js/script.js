@@ -37,7 +37,7 @@
 		}
 	});
 
-	if($('.header_ch')){
+	if($('.has_bg')[0]){
 		if ($(window).width() <= 750) {
 			
 			$(document).on('scroll', function(){
@@ -47,6 +47,11 @@
 					$('.header_navigation').removeClass('navbar_active');
 				}
 			});
+		}
+	} else {
+		console.log('noo')
+		if($('.header_ch')){
+			$('.header_ch').removeClass('header_ch');
 		}
 	}
 
