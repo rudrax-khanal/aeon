@@ -61,8 +61,11 @@
                             <p class="light_text">
                                 aeonfree is the fastest, secure and free web hosting provider with no ads. Create your own free website with modern features and tools.
                             </p>
-                            <p>Copyright &copy; AeonFree Free Web Hosting <script type="text/javascript">document.write(new Date().getFullYear());</script>. All Rights Reserved!</p>
+                            <p>Copyright &copy; AeonFree Free PHP Web Hosting <span class="date"></span>. All Rights Reserved!</p>
                             <a href="https://ifastnet.com/portal/aff.php?aff=25747" class="styled_a">Powered by IfastNet Premium Hosting.</a>
+                            <script type="text/javascript">
+                                document.querySelector('.date').innerText = (new Date().getFullYear());
+                            </script>
                         </div>
                     </div>
                 </div>
