@@ -30,6 +30,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lexend+Deca:400,300,500,600" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+
+    {% if page.type == "article" %}
+    <link rel="stylesheet" href="/assets/css/article.min.css">
+    {% endif %}
+
     <link rel="icon" type="image/png" href="/assets/images/favicon.png">
 	    <!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141598597-1"></script>
@@ -68,7 +73,7 @@
                                             <li><a href="/domains">Domains</a></li>
                                             <li><a href="/support">Knowledge Base</a></li>
                                             <li><a href="https://forum.aeonfree.com">Forum</a></li> 
-                                            <li><a href="https://apps.aeonfree.com">Tools</a></li>
+                                            <li><a href="https://web.aeonfree.com/tools">Tools</a></li>
                                         </ul>
                                     </nav>
                                 </div>
