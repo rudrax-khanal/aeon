@@ -6,3 +6,6 @@ include:
   - _redirects
   - ads.txt
   - mywotba4451fda3c08b8c09e7.html
+collections:
+  articles:
+    output: true
