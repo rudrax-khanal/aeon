@@ -10,11 +10,6 @@ description: With aeonfree web hosting you can get a free SSL Certificate when y
 
 # How to get a free SSL Certificate?
 
-With aeonfree web hosting you can get a free SSL Certificate when you signup for a free web hosting. You can follow these bsic steps to get a free SSL
+Please refer to this guide to quickly generate and install SSL certificates for free: 
 
-You can use Cloudflare to get free SSL.
-Go to Your Control Panel=>Software=>Cloudflare=>Select a domain=>Alter Cloudflare=>Enable
-Then, activate the SSL from Cloudflare Dashboard.
-
-You will Immediately get an email from cloudflare. Now, activate the cloudflare account by confirming the Email.
-Enable the SSL Option from cloudflare.
+[https://blog.aeonfree.com/how-to-install-ssl-certificates-in-free-hosting/](https://blog.aeonfree.com/how-to-install-ssl-certificates-in-free-hosting/)
