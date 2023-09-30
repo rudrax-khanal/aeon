@@ -1,0 +1,35 @@
+---
+
+title: Articles
+layout: default
+type: article
+permalink: /article
+description: Read articles on how to gest most out of our free web hosting.
+
+---
+<div class="main article-main-page">
+  <section>
+    <div class="container">
+      <div class="heading">
+        <h1>Latest Articles</h1>
+      </div>
+
+      <div class="articles-holder">
+        {% for item in site.articles %}
+
+          
+          <article>
+            <a href="{{ item.permalink }}">
+              <div>
+                <img src="{{ item.image }}" alt="{{ item.title }}">
+                <h4><a href="{{ item.permalink }}">{{ item.title }}</a></h4>
+                <p>{{ item.description }}</p>
+              </div>
+            </a>
+          </article>
+
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</div>

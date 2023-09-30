@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<main class="main article-page">
+    <section class="article_section" style="margin-bottom:0;">
+
+        <div class="container-small">
+            <div class="breadcrumb">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/article">Articles</a></li>
+                    <li><a href="{{page.permalink}}">{{page.title}}</a></li>
+                </ul>
+            </div>
+            <div class="heading">
+                <h1>{{page.title}}</h1>
+            </div>
+        </div>
+
+        <div class="container-medium">
+            <div class="main-image">
+                <img src="{{page.image}}" alt="{{page.title}}">
+            </div>
+        </div>
+
+        <div class="container-small">
+            <article>
+                {{content}}
+            </article>
+        </div>
+
+        </div>
+    </section>
+
+    <section class="footer_first text_center">
+        <div class="container">
+            <div class="holder">
+                <h3>Ready to Rock your new website? Register Today!</h3>
+                <a href="http://web.aeonfree.com/signup" class="cta">Get Started Now!</a>
+            </div>
+        </div>
+    </section>
+</main>

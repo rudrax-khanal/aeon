@@ -587,6 +587,21 @@ ul.breadcrumb li:last-child{
 	text-decoration: underline;
 }
 
+.right_holder{
+	position: relative;
+}
+.right-gradient{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    right: 0;
+    filter: blur(100px);
+    opacity: 0.25;
+    background-blend-mode: multiply;
+    background: linear-gradient( 90deg, #f5a623 6.88%, #d3e5ff 58.46%, #f81ce5 94.51% );
+}
 
 .back_to_top{
 	display: inline-block;
