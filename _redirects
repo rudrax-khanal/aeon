@@ -8,4 +8,4 @@ https://www.aeonfreecom/* http://aeonfree.com/:splat 301!
 /forum		https://forum.aeonfree.com
 /dashboard  https://web.aeonfree.com/dashboard
 /premium-hosting  https://aeonfree.com/premium
-/article/*           https://aeonfree-articles.aeonfree.com/:splat       200
+/info/*           https://aeonfree-articles.aeonfree.com/:splat       200
